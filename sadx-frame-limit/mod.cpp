@@ -7,7 +7,7 @@
 using namespace std;
 using namespace chrono;
 
-using FrameRatio = duration<double, ratio<1, 60>>;
+using FrameRatio = duration<double, ratio<1, 120>>;
 
 static bool enable_frame_limit = true;
 static auto frame_start = system_clock::now();
